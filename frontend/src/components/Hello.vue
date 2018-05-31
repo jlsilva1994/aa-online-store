@@ -2,7 +2,7 @@
   <div class="hello">
     <img src="./../assets/spring-boot-vuejs-logo.png">
     <h1>{{ msg }}</h1>
-    <h2>{{ proof }}</h2>
+    <h3>{{ proof }}</h3>
     <H2>{{ name }}</h2>
     <h3>This site contains more stuff :)</h3>
     <ul>
@@ -23,7 +23,7 @@ export default {
   data () {
     return {
       msg: 'Welcome to your Vue.js powered Spring Boot App',
-      proof: 'Olá pessoal criei este projeto a partir de um boilerplate mt fixe, já está preparado até para fazer deploy, a única dificuldade vai ser testar isto num servidor aplicacional com wildFly. Esta é a minha prova de conceito para mostrar que o desenvolvimento com vue no front-end vai-nos trazer muitas vantagens.'
+      proof: 'Olá pessoal criei este projeto a partir de um boilerplate mt fixe, já está preparado até para fazer deploy, a única dificuldade vai ser testar isto num servidor aplicacional com wildFly. Esta é a minha prova de conceito para mostrar que o desenvolvimento com vue no front-end vai-nos trazer muitas vantagens.',
       name: 'José Luis Silva, Uminho'
     }
   }
